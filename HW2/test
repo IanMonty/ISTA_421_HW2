@@ -1,0 +1,4 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+data = np.loadtxt(open("./code/data/womens100.csv","rb"),delimiter = ",")
